@@ -143,14 +143,36 @@ function App() {
                   <p>Vamos cobrir o custo para substituí-lo por um carro novo.</p>
               </div>
             </div>
-            
           </div>
         </section>
         <section id='section5'>
-          
+          <div id='text_5'>
+            <h1>Já está protegido? Vamos ajudá-lo a mudar!</h1>
+            <p>As pessoas deixaram essas seguradoras para se juntar à AX:</p>
+          </div>
+          <div id='circulos'>
+            <div id='linha1_circulos'>
+              <div id='circulo1'>
+                <h1>31%</h1>
+                <p></p>
+              </div>
+              <div id='circulo2'><h1></h1></div>
+              <div id='circulo3'></div>
+            </div>
+            <div id='linha2_circulos'>
+              <div id='circulo4'></div>
+              <div id='circulo5'></div>
+              <div id='circulo6'></div>
+            </div>
+          </div>
+          <div id='section5_btn'>
+            <button type='submit'>VERIFICAR PREÇOS E MUDAR</button>
+          </div>
         </section>
         <section id='section6'>
-
+          <div id='text_6'>
+            <h1>Escritórios pelo <br />Nordeste</h1>
+          </div>         
         </section>
       </main>
       <footer>
