@@ -1,0 +1,54 @@
+#rodape{
+    background-color: #161616;
+    height: 240px;
+    width: 100%;
+  }
+  
+  #logo_rodape img{
+    width: 250px;
+    margin-top: 80px;
+  }
+  
+  #logo_responsiva img{
+    display: none;
+  }
+  
+  #flex_rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  #sobre{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #rodape h2{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 50px;
+  }
+  
+  #rodape p, #sobre a{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 300;
+    text-align:left;
+    margin-top: 15px;
+  }
+  
+  #div_branca{
+    width: 1px;
+    height: 155px;
+    background-color: white;
+    margin-top: 40px;
+  }
+  
+  #redes img{
+    margin-top: 15px;
+    padding:10px;
+  }
