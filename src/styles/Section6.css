@@ -25,9 +25,10 @@
     justify-content: center;
     align-items: center;
     width: 700px;
-    height: 400px;
-    margin-top: 80px;
+    height: 500px;
     background-color: #ffffff;
+    overflow: hidden;
+    clip-path: inset(18% 0 0 0);
   }
   
   #mapa iframe{

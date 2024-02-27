@@ -1,0 +1,19 @@
+.scroll-arrow.right{
+    right: 20px;
+  }
+  
+.arrow-icon{
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  position:absolute;
+  right: 3rem; /* Ajuste a distância da borda direita conforme necessário */
+  bottom: 3rem; /* Ajuste a distância da borda inferior conforme necessário */
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+  
+.arrow-icon.show {
+  opacity: 1;
+}

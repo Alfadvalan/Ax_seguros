@@ -16,6 +16,10 @@
     margin-right: 20px;
 }
 
+.navbar.show {
+    top: 0;
+}
+
 #logo_navbar, #button_navbar{
     margin-top: 10px;
 }
@@ -26,6 +30,7 @@
 
 #button_navbar button {
     background-color: #BC0F06;
+    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     border-radius: 20px;

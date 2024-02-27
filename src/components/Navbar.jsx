@@ -4,20 +4,15 @@ function Navbar() {
 
   useEffect(() => {
       const halfPageHeight = document.documentElement.scrollHeight / 10;
-      let isPastHalfPage = false;
+      //let isPastHalfPage = false;
   
       const handleScroll = () => {
         const scrollY = window.scrollY;
   
         if (scrollY > halfPageHeight) {
-          isPastHalfPage = true;
-  
-          if (isPastHalfPage) {
-            document.getElementById("navbar").style.top = "0";
-          }
+          navbar.classList.add("show");
         } else {
-          isPastHalfPage = false;
-          document.getElementById("navbar").style.top = "-80px";
+          navbar.classList.remove("show");
         }
       };
   
@@ -35,7 +30,7 @@ return (
           <img src="/images/logo.png" alt="Logo AX Seguros" />
       </div>
       <div id="button_navbar">
-          <a href="">
+          <a href="#">
               <button>Proteja seu veículo</button>
           </a>
       </div>

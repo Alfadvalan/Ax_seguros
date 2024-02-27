@@ -9,7 +9,7 @@ import './styles/Section7.css';
 import './styles/App.css';
 import './styles/Responsividade.css';
 import './styles/Navbar.css';
-import './styles/ArrowIcon.css';
+import './styles/ScrollArrow.css';
 import Section1 from './components/Section1';
 import Section2 from './components/Section2';
 import Section3 from './components/Section3';
