@@ -14,7 +14,7 @@ function Section1(){
               <p>Rápido. Preço justo. Sem burocracia.</p>
             </div>
             <div id='section1_button'>
-              <a href="">
+              <a href="https://lp.alfacb.org.br/">
                 <button type='button'>CONFIRA NOSSOS PREÇOS</button>
               </a>
             </div>

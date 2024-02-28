@@ -45,7 +45,7 @@
   }
   
   #section3{
-    margin-top: -160px;
+    margin-top: 100px;
   }
   
   .section3_title h1{
@@ -221,7 +221,7 @@
   
   .section3_title h1{
     font-size: 37px;
-    margin-top: -100px;
+    margin-top: 0;
   }
   
   .section3_title p{
@@ -402,7 +402,6 @@
   
   .section3_title h1{
     font-size: 34px;
-    margin-top: -100px;
   }
   
   .section3_title p{
@@ -591,16 +590,20 @@
   #section2_p p{
     font-size: 12px;
     text-align:justify;
-    padding-inline: 60px;
+    padding-inline: 50px;
   }
   
   #section2_img img{
     width: 50vw;
   }
+
+  #section3{
+    margin-top: 0;
+  }
   
   .section3_title h1{
-    font-size: 28px;
-    margin-top: -140px;
+    font-size: 30px;
+    margin-top: 0;
   }
   
   .section3_title p{
@@ -789,6 +792,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 200px;
   }
 
   #section2_h1{
@@ -824,7 +828,7 @@
   }
   
   .section3_title h1{
-    font-size: 28px;
+    font-size: 30px;
     margin-top: 190px;
   }
   
@@ -1014,6 +1018,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 150px;
   }
 
   #section2_h1{
@@ -1256,6 +1261,10 @@
     font-size: 10px;
   } 
 
+  #section2{
+    margin-top: 150px;
+  }
+
   #text_5 h1{
     font-size: 30px;
     margin-top: 20px;
@@ -1275,6 +1284,19 @@
     width: 300px;
   }
 
+  #section5{
+    padding: 10%;
+  }
+
+  #text_5 h1{
+    font-size: 25px;
+  }
+
+  #circulos{
+    margin-top: 0;
+    width: 250px;
+  }
+  
   #section5_btn{
     margin-top: 50px;
   }
@@ -1305,8 +1327,12 @@
 }
 
 @media screen and (max-width: 400px){
+  #navbar.navbar.show{
+    height: 70px;
+  }
+
   .navbar #logo_navbar, .navbar #button_navbar{
-    margin-top: 15px;
+    margin-top: 12px;
   }
 
   .navbar #logo_navbar img{
@@ -1345,6 +1371,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 100px;
   }
 
   #section2_h1{
@@ -1380,8 +1407,8 @@
   }
   
   .section3_title h1{
-    font-size: 28px;
-    margin-top: 200px;
+    font-size: 26px;
+    margin-top: 120px;
   }
   
   .section3_title p{
@@ -1479,6 +1506,10 @@
     font-size: 12px;
     padding-inline: 50px;
   }
+
+  #section5{
+    height: auto;
+  }
   
   #text_5 h1{
     font-size: 23px;
@@ -1501,12 +1532,12 @@
   }
   
   #section5_btn{
-    margin-top: 50px;
+    margin-top: 30px;
   }
   
   #section5_btn button{
-    width: 170px;
-    height: 40px;
+    width: 165px;
+    height: 39px;
     font-size: 10px;
   }
   
@@ -1647,8 +1678,8 @@
   }
   
   .section3_title h1{
-    font-size: 28px;
-    margin-top: 200px;
+    font-size: 26px;
+    margin-top: 150px;
   }
   
   .section3_title p{
@@ -1919,8 +1950,8 @@
   }
   
   .section3_title h1{
-    font-size: 28px;
-    margin-top: 200px;
+    font-size: 25px;
+    margin-top: 150px;
   }
   
   .section3_title p{
@@ -2047,8 +2078,8 @@
   }
   
   #section5_btn button{
-    width: 160px;
-    height: 38px;
+    width: 150px;
+    height: 37px;
     font-size: 9px;
   }
   
@@ -2097,6 +2128,163 @@
     margin-top: 15px;
     padding:6px;
     width: 10px;
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  #section1_p p{
+    font-size: 28px;
+    padding-top: 10px;
+  }
+
+  #section1_button button{
+    width: 280px;
+    height: 58px;
+    font-size: 19px;
+  }
+
+  #section2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 18rem;
+    margin-bottom: 13rem;
+  }
+
+  #section2_h1{
+    margin-left: 0;
+  }
+
+  .sec2_title{
+    margin-top: 18rem;
+    text-align: center;
+    font-size: 45px;
+
+  }
+
+  #section2_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+  }
+  
+  #section2_p{
+    margin-top: 40px;
+    text-align:justify;
+  }
+  
+  #section2_img img{
+    width: 100%;
+  }
+
+  #section2_p p{
+    text-align:justify;
+    padding-inline:60px;
+    font-size: 21px;
+  }
+
+  #section5{
+    padding: 10%;
+    height: auto;
+  }
+
+  .section3_title h1{
+    font-size: 45px;
+  }
+  
+  .section3_title p{
+    font-size: 23px;
+  }
+
+  .background_img{
+    width: 195px;
+    height: 195px;
+  }
+  
+  .background_img img{
+    width: 125px;
+    height: 125px;
+  }
+
+  #linha1 h2, #linha2 h2{
+    font-size: 24px;
+  }
+  
+  #linha2 p, #linha1 p{
+    font-size: 16px;
+  }
+
+  #section4_title h1{
+    font-size: 46px;
+  }
+
+  #section4_title p{
+    font-size: 20px;
+  }
+
+  .section4_img{
+    width: 195px;
+    height: 195px;
+  }
+
+  .section4_img img{
+    width: 125px;
+    height: 125px;
+  }
+
+  .sec_4_coluna h2{
+    font-size: 24px;
+  }
+
+  .sec_4_coluna p{
+    font-size: 16px;
+  }
+
+  #text_5 h1{
+    font-size: 42px;
+  }
+
+  #text_5 p{
+    font-size: 19px;
+  }
+
+  #section5_btn button{
+    width: 240px;
+    height: 52px;
+    font-size: 15px;
+  }
+
+  #text_6 h1{
+    font-size: 43px;
+  }
+
+  #mapa{
+    width: 700px;
+    height: 600px;
+  }
+
+  #logo_rodape img{
+    width: 230px;
+    margin-top: 80px;
+  }
+
+  #rodape h2{
+    font-size: 21px;
+  }
+  
+  #rodape p, #sobre a{
+    font-size: 15px;
+  }
+  
+  #div_branca{
+    width: 1px;
+    height: 155px;
+  }
+  
+  #redes img{
+    margin-top: 15px;
+    padding:10px;
   }
 }
 

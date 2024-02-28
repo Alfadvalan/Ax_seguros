@@ -11,7 +11,7 @@ function Section5() {
             <img className='imagem_circulo' src="/images/circulos2.png" alt="" />
           </div>
           <div id='section5_btn'>
-            <a href="">
+            <a href="https://lp.alfacb.org.br/">
               <button type='submit'>VERIFICAR PREÇOS E MUDAR</button>
             </a>
           </div>

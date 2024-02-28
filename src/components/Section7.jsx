@@ -24,7 +24,7 @@ function Section7() {
               <h2>Redes</h2>
               <a href=""><img src="/images/twitter.png" alt="twitter" /></a>
               <a href=""><img src="/images/facebook.png" alt="facebook" /></a>
-              <a href=""><img src="/images/instagram.png" alt="instagram" /></a>
+              <a href="https://www.instagram.com/ax.seguros?igsh=dXIzM3l3azBpNXZh"><img src="/images/instagram.png" alt="instagram" /></a>
               <a href=""><img src="/images/youtube.png" alt="youtube" /></a>
               <p>&copy; Grupo Alfa. Todos os direitos reservados.</p>
             </div>

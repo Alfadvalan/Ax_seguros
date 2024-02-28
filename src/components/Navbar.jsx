@@ -30,7 +30,7 @@ return (
           <img src="/images/logo.png" alt="Logo AX Seguros" />
       </div>
       <div id="button_navbar">
-          <a href="#">
+          <a href="https://lp.alfacb.org.br/">
               <button>Proteja seu veículo</button>
           </a>
       </div>
