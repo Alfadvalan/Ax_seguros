@@ -13,18 +13,16 @@
   }
   
   #text_5 h1{
-    font-family: 'Bitter';
+    font-family: 'Abandon';
     font-size: 38px;
     color:#00214A;
-    font-weight: 600;
     text-align: center;
   }
   
   #text_5 p{
-    font-family: 'Poppins';
-    font-size: 15px;
+    font-family: 'Abandon';
+    font-size: 17px;
     color:#394350;
-    font-weight: 400;
     text-align: center;
   }
   

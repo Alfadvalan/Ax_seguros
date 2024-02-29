@@ -28,7 +28,7 @@
   
   #section1_h1 h1{
     font-size: 52px;
-    font-family: 'Bitter';
+    font-family: 'Abandon';
     color: #00214A;
     text-align: center;
     white-space: nowrap;
@@ -43,8 +43,7 @@
   #section1_p p{
     color: #161616;
     font-size: 20px;
-    font-family: 'Bitter';
-    font-weight: 600;
+    font-family: 'Abandon';
   }
   
   #section1_button{

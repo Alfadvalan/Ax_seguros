@@ -10,17 +10,15 @@
   
   #section4_title h1{
     text-align: center;
-    font-family: 'Bitter';
+    font-family: 'Abandon';
     color: #00214A;
-    font-weight: 600;
     font-size: 40px;
   }
   
   #section4_title p{
     text-align: center;
-    font-family: 'Poppins';
+    font-family: 'Abandon';
     color: #000000;
-    font-weight: 300;
     font-size: 16px;
     margin-top: 10px;
   }

@@ -14,8 +14,7 @@
   }
   
   .sec2_title{
-    font-family: 'Bitter';
-    font-weight: 700;
+    font-family: 'Abandon';
     color: #BC0F06;
     font-size: 40px;
   }
@@ -23,13 +22,13 @@
   #section2_p p{
     color: #2f3031;
     font-size: 20px;
-    font-weight: 600;
-    font-family: 'Poppins';
+    font-family: 'Abandon';
+    padding-inline: 60px;
   }
   
   #section2_p{
     padding-right: 150px;
-    margin-left: 70px;
+    margin-left: 20px;
     margin-top: 60px;
   }
   
