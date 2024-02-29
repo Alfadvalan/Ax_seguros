@@ -10,6 +10,7 @@ import './styles/App.css';
 import './styles/Responsividade.css';
 import './styles/Navbar.css';
 import './styles/ScrollArrow.css';
+import './styles/PageForm.css';
 import Section1 from './components/Section1';
 import Section2 from './components/Section2';
 import Section3 from './components/Section3';
@@ -18,14 +19,12 @@ import Section5 from './components/Section5';
 import Section6 from './components/Section6';
 import Section7 from './components/Section7';
 import Navbar from './components/Navbar';
-import Routes from './Routes';
 
 
 function App() {
   return (
     <>
       <header>
-        <Routes />
         <Navbar />
         <Section1 />
       </header>

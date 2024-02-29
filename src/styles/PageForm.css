@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Capriola&family=Signika:wght@300..700&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#lp{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+#content{
+  display: flex;
+  flex-direction: column;
+  width: 55vw;
+  height: 100vh;
+  background-image: url('/src/images/familia-em-uma-floresta-de-verao-pelo-porta-malas-aberto 1.png');
+  background-size: cover; /* Garante que a imagem cubra completamente o elemento */
+  background-position: center; /* Centraliza a imagem dentro do elemento */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+}
+
+#logo_lp{
+  margin-top: 5%;
+  margin-left: 15%;
+}
+
+#logo_lp img{
+  width: 250px;
+}
+
+#content_h1{    
+  transform: translate(15%, 40%);
+}
+
+#content h1{
+  font-family: 'Bitter';
+  color: #00214A;
+  font-size: 48px;
+  width: 60%;
+}
+
+#content_form{
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 78%;    
+  transform: translate(-50%, -50%);
+  width: 27%;
+}
+
+#content_form p{
+  color: #BC0F06;
+  font-family: 'Poppins';
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 15%;
+}
+
+.input {
+  position: relative;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: row;
+  padding: 8%;
+}
+
+.input-container input, #tipoVeiculo {
+  border: none;
+  outline: none;
+  width: 100%;
+  border-bottom: 1px solid #BC0F06; /* Cor do traço */
+  padding-bottom: 5px; /* Espaçamento opcional abaixo do traço */
+  box-sizing: border-box; /* Garante que o padding não afete a largura total */
+  color: rgba(0, 0, 0, 0.43);
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+
+.input-container img{
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}
+
+#submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  width: auto;
+  height: auto;
+}
+
+#submit_button{
+  width: 90%;
+  height: 40px;
+  background-color: #BC0F06;
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 300;
+  border: none;
+  border-radius: 55px;
+  cursor: pointer;
+}
