@@ -1,6 +1,10 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+import PageForm from './PageForm';
 
 function Section1(){
+  
+
     return (
         <section id='section1'>
           <div id='logo'>
@@ -14,9 +18,9 @@ function Section1(){
               <p>Rápido. Preço justo. Sem burocracia.</p>
             </div>
             <div id='section1_button'>
-              <a href="https://lp.alfacb.org.br/">
-                <button type='button'>CONFIRA NOSSOS PREÇOS</button>
-              </a>
+              <Link to={'./PageForm'}>
+                  <button type='button'>CONFIRA NOSSOS PREÇOS</button>
+              </Link>
             </div>
           </div>
         </section>
