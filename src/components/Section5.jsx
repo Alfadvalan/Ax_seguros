@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Section5() {
     return (
@@ -10,11 +11,12 @@ function Section5() {
           <div id='circulos'>
             <img className='imagem_circulo' src="/images/circulos2.png" alt="" />
           </div>
-          <div id='section5_btn'>
-            <a href="https://lp.alfacb.org.br/">
+          <Link to='/PageForm'>
+            <div id='section5_btn'>
               <button type='submit'>VERIFICAR PREÇOS E MUDAR</button>
-            </a>
-          </div>
+            </div>
+          </Link>
+          
         </section>
     );
 }

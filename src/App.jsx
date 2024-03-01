@@ -11,6 +11,7 @@ import './styles/Responsividade.css';
 import './styles/Navbar.css';
 import './styles/ScrollArrow.css';
 import './styles/PageForm.css';
+import './styles/LastPage.css';
 import Section1 from './components/Section1';
 import Section2 from './components/Section2';
 import Section3 from './components/Section3';

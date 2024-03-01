@@ -5,7 +5,7 @@ function PageForm() {
     <>
       <section id='lp'>
         <div id='content'>
-          <div id='logo_lp'><img src="/src/images/logo.png" alt="Logo AX" /></div>
+          <div id='logo_lp'><img src="/images/logo.png" alt="Logo AX" /></div>
           <div id='content_h1'>            
             <h1>Você está a um passo de garantir a melhor seguradora para seu veículo!</h1>
           </div>

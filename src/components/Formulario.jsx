@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import InputMask from 'react-input-mask';
+import { Link } from 'react-router-dom';
 
 function Formulario() {
   const [telefone, setTelefone] = useState('');
@@ -45,7 +46,7 @@ function Formulario() {
   return (
     <form action={import.meta.env.VITE_REACT_APP_API_URL} method="POST" onSubmit={handleFormSubmit}>
       <div className='input-container'>
-        <img src="/src/images/user.png" alt="Usuário" className='icon' />
+        <img src="/images/user.png" alt="Usuário" className='icon' />
         <input
           name='Nome'
           type="text"
@@ -53,7 +54,7 @@ function Formulario() {
           required />
       </div>
       <div className='input-container'>
-        <img src="/src/images/whatsapp.png" alt="Whatsapp" />
+        <img src="/images/whatsapp.png" alt="Whatsapp" />
         <InputMask
           name='Whatsapp'
           mask="(99) 99999-9999"
@@ -66,7 +67,7 @@ function Formulario() {
         />
       </div>
       <div className='input-container'>
-        <img src="/src/images/email.png" alt="Email" />
+        <img src="/images/email.png" alt="Email" />
         <input
           name='Email'
           type="email"
@@ -74,16 +75,21 @@ function Formulario() {
           required />
       </div>
       <div className='input-container'>
-        <img src="/src/images/car.png" alt="Carro" />
+        <img src="/images/car.png" alt="Carro" />
         <select id="tipoVeiculo" name="tipoVeiculo" required>
           <option value="" defaultValue>Qual o seu veículo?</option>
           <option value="carro">Carro</option>
           <option value="moto">Moto</option>
         </select>
       </div>
-      <div id='submit'>
-        <button type="submit" id='submit_button'>Enviar</button>
+      <div className='termos'>
+        <p id='style_termos'>Ao preencher o formulário, concordo em receber comunicação e estou de acordo com os termos de uso.</p>
       </div>
+      <Link to='/LastPage'>
+        <div id='submit'>
+          <button type="submit" id='submit_button'>Enviar</button>
+        </div>
+      </Link>
     </form>
   );
 }

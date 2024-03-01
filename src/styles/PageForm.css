@@ -18,7 +18,7 @@
   flex-direction: column;
   width: 55vw;
   height: 100vh;
-  background-image: url('/src/images/familia-em-uma-floresta-de-verao-pelo-porta-malas-aberto 1.png');
+  background-image: url('/images/familia-em-uma-floresta-de-verao-pelo-porta-malas-aberto 1.png');
   background-size: cover; /* Garante que a imagem cubra completamente o elemento */
   background-position: center; /* Centraliza a imagem dentro do elemento */
   background-repeat: no-repeat; /* Evita repetição da imagem */
@@ -109,4 +109,10 @@
   border: none;
   border-radius: 55px;
   cursor: pointer;
+}
+
+.termos #style_termos{
+    padding-top: 0;
+    font-size: 9px;
+    color: black;
 }

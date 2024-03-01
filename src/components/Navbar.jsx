@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
 
@@ -29,11 +30,13 @@ return (
       <div id="logo_navbar">
           <img src="/images/logo.png" alt="Logo AX Seguros" />
       </div>
-      <div id="button_navbar">
-          <a href="https://lp.alfacb.org.br/">
-              <button>Proteja seu veículo</button>
-          </a>
-      </div>
+      
+          <Link to='/PageForm'>
+            <div id="button_navbar">
+                <button>Proteja seu veículo</button>
+            </div>
+          </Link>
+      
     </nav>
   </div>
 );

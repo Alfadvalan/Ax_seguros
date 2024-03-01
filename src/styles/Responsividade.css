@@ -352,23 +352,7 @@
 }
 
 @media screen and (max-width: 800px){
-  #logo img{
-    width: 190px;
-  }
-    
-  #section1_h1 h1{
-    font-size: 40px;
-  }
   
-  #section1_p p{
-    font-size: 18px;
-  }
-  
-  #section1_button button{
-    width: 250px;
-    height: 46px;
-    font-size: 13px;
-  }
   
   #section2_h1{
     margin-top: 120px;
