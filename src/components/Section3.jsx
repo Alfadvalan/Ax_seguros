@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Section3() {
     return (
@@ -7,10 +8,9 @@ function Section3() {
             <h1>Um novo modelo de seguro auto</h1>
           </div>
           <div id='container'>
-            <div id='linha1'>
-              <div id='elemento1'>
+              <div className='elemento_container'>
                 <div className='background_img'>
-                  <img src="/images/smartphone.png" alt="Atendimento" />
+                  <img src="/images/homem-icone.png" alt="Pessoa" />
                 </div>
                 <div className='section3_text'>
                   <h2 id='elemento1_h2'>Para Quem?</h2>
@@ -19,28 +19,29 @@ function Section3() {
                     Seja você, motorista de APP, frotas, taxistas.</p>
                 </div>
               </div>
-              <div id='elemento2'>
+              <div className='elemento_container'>
                 <div className='background_img'>
-                  <img src="/images/volante.png" alt="Volante" />
+                  <img src="/images/veiculos.png" alt="Veículos" />
                 </div>
                 <div className='section3_text'>
                   <h2 id='elemento2_h2'>Quais Veículos?</h2>
                   <p>Automóveis e motocicletas nacionais de até R$ 150 mil. </p> 
                 </div>
               </div>
-              <div id='elemento3'>
+              <div className='elemento_container'>
                 <div className='background_img'>
-                  <img src="/images/vaso-de-flores.png" alt="Planta" />
+                  <img src="/images/smartphone.png" alt="Celular" />
                 </div>
                 <div className='section3_text'>
                   <h2 id='elemento3_h2'>Do Seu Jeito!</h2>
                   <p>Você escolhe as assistências que precisa e que cabe no seu dia, ou planos com valor fixo. Adicione ou remova serviços de acordo com seu bolso</p>
                 </div>
               </div>
-            </div>
           </div>
           <div id="fazer_parte_botao">
-            <button type="submit">Faça parte da AX!</button>
+            <Link to='/PageForm'>
+              <button type="submit">Faça parte da AX!</button>
+            </Link>
           </div>
         </section>
     );

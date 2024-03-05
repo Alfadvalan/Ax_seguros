@@ -1,17 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Section4() {
     return (
         <section id='section4'>
           <div id='section4_title'>
               <h1>O que está coberto!</h1>
-              <p>Seja uma dobra de para-lamas ou perda total, nossa equipe e aplicativo estão prontos para ajudar!</p>
           </div>
           <div id='section4_flex'>
-            <div id='linha3'>
               <div className='sec_4_coluna'>
                 <div className='section4_img'>
-                  <img src="" alt="" />
+                  <img src="/images/colisao.png" alt="" />
                 </div>
                 <h2>Se você sofrer uma colisão</h2>
                 <p>Recuperamos ou cobriremos os custos para reparar os danos.</p>
@@ -30,8 +29,6 @@ function Section4() {
                 <h2>Se o inesperado acontecer</h2>
                 <p>Cobriremos danos causados por incêndios, alagamentos, perda parcial e perda total.</p>
               </div>
-            </div>
-            <div id='linha4'>
               <div className='sec_4_coluna'>
                 <div className='section4_img'>
                   <img src="" alt="" />
@@ -53,10 +50,11 @@ function Section4() {
                   <h2>Se o seu carro for roubado ou furtado</h2>
                   <p>Você será ressarcido em 100% da tabela fipe.</p>
               </div>
-            </div>
           </div>
           <div id="simular_botao">
+          <Link to='/PageForm'>
             <button type="submit">Simule seu plano!</button>
+          </Link>
           </div>
         </section>
     );

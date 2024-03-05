@@ -1,62 +1,73 @@
 #section5{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #ffffff;
-    background-position: center;
-    background-size: cover;
-    height: auto;
-    padding: 12%;
-    box-sizing: border-box;
-  }
-  
-  #text_5 h1{
-    font-family: 'Abandon';
-    font-size: 38px;
-    color:#00214A;
-    text-align: center;
-  }
-  
-  #text_5 p{
-    font-family: 'Abandon';
-    font-size: 17px;
-    color:#394350;
-    text-align: center;
-  }
-  
-  #circulos{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-  }
-  
-  #circulos img{
-    padding-top: 30px;
-  }
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #296FC5;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  padding: 8%;
+}
 
-  #section5_btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;
-  }
+#text_5{
+  display: flex;
+  flex-direction: row;
+}
+
+#text_5 img{
+  width: 80%;
+  margin-left: 8px;
+}
   
-  #section5_btn button{
-    cursor: pointer;
-    width: 230px;
-    height: 49px;
-    background-color: #BC0F06;
-    color: white;
-    font-size: 14px;
-    font-family: 'Poppins';
-    font-weight: 500;
-    border: none;
-    border-radius: 6px;
-    box-shadow: 0 8px 11px #a41d1648;
-  }
+#text_5 h1{
+  font-family: 'Poppins';
+  font-size: 38px;
+  font-style: italic;
+  color:#ffffff;
+  text-align: center;
+}
   
-  #section5_btn button:hover{
-    animation: pulse 0.6s infinite;
-  }
+#text_5 p{
+  font-family: 'Abandon';
+  font-size: 17px;
+  color:#394350;
+  text-align: center;
+}
+  
+#circulos{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+  
+#circulos img{
+  padding-top: 30px;
+  width: 80%;
+}
+
+#section5_btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+  
+#section5_btn button{
+  cursor: pointer;
+  width: 230px;
+  height: 49px;
+  background-color: #BC0F06;
+  color: white;
+  font-size: 14px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 8px 11px #a41d1648;
+}
+  
+#section5_btn button:hover{
+  animation: pulse 0.6s infinite;
+}

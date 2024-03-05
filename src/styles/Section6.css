@@ -1,39 +1,73 @@
 #section6{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    padding: 10%;
-    box-sizing: border-box;
-    width: 100%;
-    background-size: cover;
-    background: linear-gradient(to left, #03132a, #043f88);
-  }
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 8%;
+  width: 100%;
+  background-size: cover;
+  background-color: #00214A;
+}
+
+#container_section6{
+  display: flex;
   
-  #text_6 h1{
-    color: white;
-    font-family: 'Abandon';
-    font-size: 40px;
-    text-align: center;
-  }
+}
   
-  #mapa{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 700px;
-    height: 500px;
-    background-color: #ffffff;
-    overflow: hidden;
-    clip-path: inset(18% 0 0 0);
-  }
+#container-text h1{
+  font-style:italic;
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-size: 4rem;
   
-  #mapa iframe{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-  }
+}
+
+#container-text p{
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#container-text{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+#img_whatsapp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin-left: 10%;
+}
+
+#img_whatsapp img{
+  width: 85%;
+  margin-left: 50%;
+}
+
+#contato{
+  margin-top: 50px;
+}
+
+#contato button{
+  background: none;
+  width: 390px;
+  height: 90px;
+  border: #ffffff 3px solid;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Poppins';
+  font-style: italic;
+  cursor: pointer;
+}
+
+#contato button:hover{
+  animation: pulse 0.6s infinite;
+
+}

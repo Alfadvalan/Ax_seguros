@@ -7,21 +7,19 @@
 #logos{
   display: flex;
   flex-direction: column;
-  
   align-items: center;
   padding: 5% 0% 0% 0%;
-  height: 30vh;
 }
   
 #logo_ax{
   width: 15%;
-  max-width: 200px;
+  max-width: 300px;
   margin-bottom: 10px;
 }
 
 #logo_susep{
   width: 10%;
-  max-width: 150px;
+  max-width: 250px;
   padding-bottom: 20%;
 }
   
@@ -34,18 +32,20 @@
   padding-top: 5%;
   width: 50vw;
   height: 50vh;
-  top: 50%; /* Posiciona a parte superior da div no meio da tela */
-  left: 50%; /* Posiciona a parte esquerda da div no meio da tela */
-  transform: translate(-50%, -50%); /* Centraliza a div usando transform e valores negativos */
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  max-width: 2000px;
+
 }
 
 #section1_h1{
-  width: auto;
+  width: 100%;
   margin-bottom: 5%;
 }
   
 #section1_h1 h1{
-  font-size: 58px;
+  font-size: 3.6rem;
   font-family: 'Poppins';
   font-style: italic;
   color: #ffffff;
@@ -66,12 +66,13 @@ span{
 
 #section1_p p{
   color: #ffffff;
-  font-size: 32px;
+  font-size: 2.2rem;
   font-family: 'Poppins';
   font-weight: 300;
   border: 1px solid #ffffff;
   border-radius: 8px;
   padding: 8px;
+  text-align: center;
 }
   
 #section1_button{
@@ -91,7 +92,7 @@ span{
   border: none;
   cursor: pointer;
   font-family: 'Poppins';
-  font-size: 28px;
+  font-size: 1.8rem;
   transition: background-color 0.3s ease;
 }
   

@@ -1,53 +1,75 @@
 #rodape{
-    background-color: #161616;
-    height: 240px;
-    width: 100%;
-  }
+  background-color: #ffffff;
+  height: auto;
+  padding: 5%;
+  width: 100%;
+}
   
-  #logo_rodape img{
-    width: 250px;
-    margin-top: 80px;
-  }
+#logo_rodape img{
+  width: 240px;
+  margin-top: 50px;
+}
   
-  #logo_responsiva img{
-    display: none;
-  }
+#flex_rodape{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
   
-  #flex_rodape{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
+#container-info{
+  display: flex;
+  flex-direction: column;
+}
+
+#container1-rodape-responsivo{
+  display: none;
+}
+
+#container1-rodape{
+  width: 30%;
+}
   
-  #sobre{
-    display: flex;
-    flex-direction: column;
-  }
+#rodape h2{
+  color: #000000;
+  font-family: 'Inter';
+  font-size: 19px;
+  margin-top: 50px;
+}
+
+.info_text p{
+  color: #4F4F4F;
+  font-family: 'Inter';
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 30px;
+}
   
-  #rodape h2{
-    color: white;
-    font-family: 'Abandon';
-    font-size: 19px;
-    margin-top: 50px;
-  }
+#sobre a{
+  color: #000000;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 300;
+  text-align:left;
+  margin-top: 15px;
+}
   
-  #rodape p, #sobre a{
-    color: white;
-    font-family: 'Poppins';
-    font-size: 14px;
-    font-weight: 300;
-    text-align:left;
-    margin-top: 15px;
-  }
+#div_branca{
+  width: 1px;
+  height: 100%;
+  background-color: #296FC5;
+  margin-top: 40px;
+}
+
+#container-redes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
   
-  #div_branca{
-    width: 1px;
-    height: 155px;
-    background-color: white;
-    margin-top: 40px;
-  }
-  
-  #redes img{
-    margin-top: 15px;
-    padding:10px;
-  }
+#container-redes img{
+  margin-top: 15px;
+  width: 30px;
+  padding:10px;
+}
