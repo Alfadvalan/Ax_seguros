@@ -1,25 +1,499 @@
-@media screen and  (max-width: 1138px){
+@media screen and  (max-width: 1024px){   
+  #logo_ax{
+    width: 17%;
+    margin-bottom: 10px;
+  }
+  
+  #logo_susep{
+    width: 14%;
+    padding-bottom: 20%;
+  }
+    
+  #content_section1{
+    padding-top: 5%;
+  }
+  
+  #section1_h1{
+    width: 100%;
+    margin-bottom: 5%;
+  }
+    
+  #section1_h1 h1{
+    font-size: 3.2rem;
+    line-height: 135%;
+  }
+  
+  #section1_p p{
+    font-size: 1.9rem;
+    padding: 5px;
+  }
+    
+  #section1_button button{
+    width: 440px;
+    height: 58px;
+    font-size: 1.6rem;
+  }
+
+  #section2_img{
+    margin-left: 10%;
+  }
+
+  #section2_img img{
+    width: 80%;
+  }
+  
+  #conteudo_section2{
+    width: 50%;
+    margin-left: 12%;
+  }
+  
+  #conteudo_section2 h1 {
+    font-size: 2.4rem;
+  }
+    
+  #conteudo_section2 p{
+    font-size: 1.2rem;
+    padding-top: 12px;
+  }
+  
+  #contratar button {
+    width: 445px;
+    height: 58px;
+    font-size: 1.5rem;
+  }
+
+  #container{
+    margin-top: 10%;
+  }
+   
+  .section3_title{
+    width: 50%;
+  }
+    
+  .section3_title h1{
+    font-size: 2.3rem;
+  } 
+    
+  .background_img img{
+    width: 120px;
+    height: 120px;
+  }
+    
+  .section3_text h2{
+    font-size: 1.4rem;
+  }
+    
+  .section3_text p{
+    font-size: 1.1rem;
+    padding-inline: 20px;
+  }
+  
+  #fazer_parte_botao{
+    margin-top: 10%;
+  }
+  
+  #fazer_parte_botao button{
+    width: 345px;
+    height: 54px;
+    font-size: 1.3rem;
+  }
+    
+  #section4_title h1{
+    font-size: 2.5rem;
+  }
+    
+  #section4_flex{
+    margin-top: 5%;
+  }
+  
+  .sec_4_coluna{
+    width: 290px;
+    height: 396px;
+    margin: 25px;
+  }
+  
+  .sec_4_coluna h2{
+    font-size: 1.3rem;
+    padding-inline: 15%;
+  }
+  
+  .sec_4_coluna p{
+    font-size: 1rem;
+    padding: 8%;
+  }
+   
+  #simular_botao{
+    margin-top:50px;
+  }
+  
+  #simular_botao button{
+    width: 345px;
+    height: 54px;
+    border: none;
+    font-size: 1.4rem;
+  }
+  
+  #text_5 img{
+    width: 67%;
+    margin-left: 15px;
+    margin-top: 2px;
+  }
+    
+  #text_5 h1{
+    font-size: 2.3rem;
+  }
+
+  #section6{
+    padding: 10%;
+  }
+    
+  #circulos{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+    
+  #circulos img{
+    padding-top: 30px;
+    width: 75%;
+  }
+    
+  #container-text h1{
+    font-size: 2.8rem;
+  }
+  
+  #container-text p{
+    font-size: 1.4rem;
+  }
+  
+  #img_whatsapp img{
+    width: 82%;
+    margin-left: 40%;
+  }
+  
+  #contato{
+    margin-top: 50px;
+  }
+  
+  #contato button{
+    width: 335px;
+    height: 75px;
+    font-size: 1.6rem;
+  }
+
+  #rodape{
+    padding: 3%;
+  }
+
+  #flex_rodape{
+    width: 90%;
+  }
+    
+  #logo_rodape img{
+    width: 235px;
+    margin-top: 45px;
+  }
+  
+  .info_text p{
+    font-size: 1rem;
+    padding-top: 30px;
+  }
+
+  #container-info{
+    padding-left: 30px;
+  }
+  
+  #container-info h2, #container-redes h2{
+    font-size: 1.1rem;
+  }
+  
+  #container-info p, #container-redes p{
+    padding-top: 10px;
+  }
+  
+  #ouvidoria h2{
+    padding-top: 30px;
+  }
+  
+  #container1-rodape-responsivo{
+    display: none;
+  }
+  
+  #container1-rodape{
+    width: 70%;
+  }
+  
+  #div_azul{
+    height: 280px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  #container-redes img{
+    margin-top: 15px;
+    width: 55px;
+    padding:10px;
+  }
   
 }
 
-@media screen and (max-width: 900px){
-  
-}
-
-@media screen and (max-width: 800px){
- 
-}
-
-
-
-@media screen and (max-width: 700px){
+@media screen and (max-width: 768px){
   .scroll-arrow .arrow-icon{
     width: 2rem;
     height: 2rem;
     right: 1rem; 
     bottom: 3rem;
   }
+
+  #logo_ax{
+    width: 18%;
+    margin-bottom: 10px;
+  }
   
+  #logo_susep{
+    width: 16%;
+    padding-bottom: 20%;
+  }
+    
+  #content_section1{
+    padding-top: 5%;
+  }
+    
+  #section1_h1 h1{
+    font-size: 2.5rem;
+    line-height: 135%;
+  }
+  
+  #section1_p p{
+    font-size: 1.1rem;
+    padding: 5px;
+  }
+    
+  #section1_button button{
+    width: 290px;
+    height: 45px;
+    font-size: 1.1rem;
+  }
+
+  #section2{
+    height: 70vh;
+  }
+
+  #section2_img img{
+    width: 70%;
+  }
+  
+  #conteudo_section2{
+    width: 60%;
+    margin-left: 10%;
+  }
+  
+  #conteudo_section2 h1 {
+    font-size: 1.7rem;
+  }
+    
+  #conteudo_section2 p{
+    font-size: 1rem;
+    padding-top: 12px;
+  }
+  
+  #contratar button {
+    width: 270px;
+    height: 45px;
+    font-size: 1.1rem;
+  }
+
+  #section3{
+    padding: 10%;
+  }
+
+  #container{
+    margin-top: 10%;
+  }
+
+  .elemento_container{
+    padding: 5%;
+  }
+   
+  .section3_title{
+    width: 50%;
+  }
+    
+  .section3_title h1{
+    font-size: 1.9rem;
+  } 
+    
+  .background_img{
+    width: 170px;
+    height: 170px;
+  }
+
+  .background_img img{
+    width: 110px;
+    height: 110px;
+  }
+    
+  .section3_text h2{
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+    
+  .section3_text p{
+    font-size: 0.9rem;
+    padding-inline: 10px;
+  }
+  
+  #fazer_parte_botao{
+    margin-top: 2%;
+  }
+  
+  #fazer_parte_botao button{
+    width: 272px;
+    height: 45px;
+    font-size: 1rem;
+  }
+    
+  #section4_title h1{
+    font-size: 2.1rem;
+  }
+    
+  #section4_flex{
+    margin-top: 5%;
+  }
+  
+  .sec_4_coluna{
+    width: 255px;
+    height: 380px;
+    margin: 25px;
+  }
+  
+  .sec_4_coluna h2{
+    font-size: 1.2rem;
+    padding-inline: 15%;
+  }
+  
+  .sec_4_coluna p{
+    font-size: 0.9rem;
+    padding: 8%;
+  }
+   
+  #simular_botao{
+    margin-top:50px;
+  }
+  
+  #simular_botao button{
+    width: 272px;
+    height: 49px;
+    font-size: 1.1rem;
+  }
+
+  #text_5{
+    margin-left: 15%;
+  }
+
+  /*PAREI AQUI*/
+  
+  #text_5 img{
+    width: 40%;
+    margin-left: 8px;
+    margin-top: 2px;
+  }
+    
+  #text_5 h1{
+    font-size: 1.5rem;
+  }
+
+  #section6{
+    padding: 10%;
+  }
+    
+  #circulos{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+    
+  #circulos img{
+    padding-top: 30px;
+    width: 75%;
+  }
+    
+  #container-text h1{
+    font-size: 2.8rem;
+  }
+  
+  #container-text p{
+    font-size: 1.4rem;
+  }
+  
+  #img_whatsapp img{
+    width: 82%;
+    margin-left: 40%;
+  }
+  
+  #contato{
+    margin-top: 50px;
+  }
+  
+  #contato button{
+    width: 335px;
+    height: 75px;
+    font-size: 1.6rem;
+  }
+
+  #rodape{
+    padding: 3%;
+  }
+
+  #flex_rodape{
+    width: 90%;
+  }
+    
+  #logo_rodape img{
+    width: 235px;
+    margin-top: 45px;
+  }
+  
+  .info_text p{
+    font-size: 1rem;
+    padding-top: 30px;
+  }
+
+  #container-info{
+    padding-left: 30px;
+  }
+  
+  #container-info h2, #container-redes h2{
+    font-size: 1.1rem;
+  }
+  
+  #container-info p, #container-redes p{
+    padding-top: 10px;
+  }
+  
+  #ouvidoria h2{
+    padding-top: 30px;
+  }
+  
+  #container1-rodape-responsivo{
+    display: none;
+  }
+  
+  #container1-rodape{
+    width: 70%;
+  }
+  
+  #div_azul{
+    height: 280px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  #container-redes img{
+    margin-top: 15px;
+    width: 55px;
+    padding:10px;
+  }
 }
 
 @media screen and (max-width: 600px){

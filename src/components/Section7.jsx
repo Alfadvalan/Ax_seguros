@@ -20,7 +20,7 @@ function Section7() {
                 <p>A AX Seguros é uma Representante de Seguros da Split Risk, que possui autorização da Superintendência de Seguros Privados (SUSEP) para operar,  conforme processo da Susep (Sandbox Regulatório) nº15414.618377/2020-87.</p>
               </div>
             </div>
-            <div id='div_branca'></div>
+            <div id='div_azul'></div>
             <div id="container-info">
               <div id="endereco">
                 <h2>Nosso endereço</h2>

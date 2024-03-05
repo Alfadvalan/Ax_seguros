@@ -18,7 +18,6 @@ function Section6() {
               <img src="/images/whatsappmaior.png" alt="ícone Whatsapp" />
             </div>      
           </div>
-          
           <ScrollArrow targetSectionId="section1" />
         </section>
     );

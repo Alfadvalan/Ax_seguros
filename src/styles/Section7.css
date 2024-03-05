@@ -35,6 +35,10 @@
   padding-top: 50px;
 }
 
+#container-redes p{
+  text-align: center;
+}
+
 #container-info h2, #container-redes h2{
   font-size: 1.2rem;
   color: #000000;
@@ -60,7 +64,7 @@
   width: 45%;
 }
 
-#div_branca{
+#div_azul{
   width: 2px;
   height: 300px;
   background-color: #296FC5;
