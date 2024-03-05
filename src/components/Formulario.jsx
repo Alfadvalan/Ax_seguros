@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import InputMask from 'react-input-mask';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Formulario() {
   const [telefone, setTelefone] = useState('');
+  const navigate = useNavigate();
 
   // enviar dados api
   const handleFormSubmit = async (e) => {
@@ -33,6 +34,7 @@ function Formulario() {
 
       if (response.ok) {
         console.log('Dados enviados com sucesso!');
+        navigate('/LastPage');
         // Não há mais redirecionamento aqui
       } else {
         console.error('Erro ao enviar dados:', response.status, response.statusText);
@@ -41,6 +43,8 @@ function Formulario() {
     } catch (error) {
       console.error('Erro durante a requisição:', error);
     }
+
+    
   };
 
   return (
@@ -83,13 +87,13 @@ function Formulario() {
         </select>
       </div>
       <div className='termos'>
-        <p id='style_termos'>Ao preencher o formulário, concordo em receber comunicação e estou de acordo com os termos de uso.</p>
+        <p id='style_termos'>Ao preencher o formulário, concordo em receber comunicação e estou de acordo com os <a href="">termos de uso.</a></p>
       </div>
-      <Link to='/LastPage'>
+      
         <div id='submit'>
           <button type="submit" id='submit_button'>Enviar</button>
         </div>
-      </Link>
+
     </form>
   );
 }

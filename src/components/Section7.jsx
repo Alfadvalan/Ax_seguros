@@ -25,7 +25,7 @@ function Section7() {
               <div id="endereco">
                 <h2>Nosso endereço</h2>
                 <p>R. Artur Antônio da Silva - <br />Universitário 445, Caruaru - PE, <br />55016-445</p>
-                <p>(81)98545-6525</p>
+                
               </div>
               <div id='ouvidoria'>
                 <h2>Ouvidoria</h2>
@@ -34,11 +34,10 @@ function Section7() {
             </div>
             <div id="container-redes">
               <h2>Nossas redes</h2>
-              <div>
+              <div id="img-redes">
                 <a href=""><img src="/images/facebook.png" alt="facebook" /></a>
                 <a href="https://www.instagram.com/ax.seguros?igsh=dXIzM3l3azBpNXZh"><img src="/images/instagram.png" alt="instagram" /></a>
               </div>
-             
               <p>&copy; Grupo Alfa. Todos os direitos reservados.</p>
             </div>
           </div>
