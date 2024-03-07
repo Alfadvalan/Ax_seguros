@@ -4,8 +4,8 @@ function Section5() {
     return (
         <section id='section5'>
           <div id='text_5'>
-            <h1>Por que contratar a <span></span></h1>
-            <div>
+            <h1>Por que contratar a</h1>
+            <div id="logo-ax-titulo">
               <img src="/images/logo4.png" alt="Logo AX" />
             </div>
           </div>

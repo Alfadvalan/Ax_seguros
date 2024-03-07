@@ -17,35 +17,35 @@ function Section4() {
               </div>
               <div className='sec_4_coluna'>
                 <div className='section4_img'>
-                  <img src="" alt="" />
+                  <img src="/images/pneu-furado.png" alt="Pneu" />
                 </div>
                 <h2>Se você está parado na rodovia</h2>
                 <p>Seu veículo quebrou? Temos assistência 24h, basta apenas ligar.</p>
               </div>
               <div className='sec_4_coluna'>
                 <div className='section4_img'>
-                  <img src="" alt="" />
+                  <img src="/images/carro-incendio.png" alt="Carro" />
                 </div>
                 <h2>Se o inesperado acontecer</h2>
                 <p>Cobriremos danos causados por incêndios, alagamentos, perda parcial e perda total.</p>
               </div>
               <div className='sec_4_coluna'>
                 <div className='section4_img'>
-                  <img src="" alt="" />
+                  <img src="/images/car-door.png" alt="Vidro" />
                 </div>
                   <h2>Se o seu vidro danificar</h2>
                   <p>Cobriremos reparos para vidros, retrovisores, para-brisas, lanternas e faróis.</p>
               </div>
               <div className='sec_4_coluna'>
                 <div className='section4_img'>
-                  <img src="" alt="" />
+                  <img src="/images/mapa-3d.png" alt="Mapa" />
                 </div>
                   <h2>Se você estiver em qualquer lugar do Brasil</h2>
                   <p>Cobertura nacional, norte, sul, leste e oeste. </p>
               </div>
               <div className='sec_4_coluna'>
                 <div className='section4_img'>
-                  <img src="" alt="" />
+                  <img src="/images/escudo.png" alt="Proteção" />
                 </div>
                   <h2>Se o seu carro for roubado ou furtado</h2>
                   <p>Você será ressarcido em 100% da tabela fipe.</p>

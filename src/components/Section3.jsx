@@ -10,7 +10,7 @@ function Section3() {
           <div id='container'>
               <div className='elemento_container'>
                 <div className='background_img'>
-                  <img src="/images/homem-icone.png" alt="Pessoa" />
+                  <img src="/images/funcionarios.png" alt="Pessoas" />
                 </div>
                 <div className='section3_text'>
                   <h2 id='elemento1_h2'>Para Quem?</h2>

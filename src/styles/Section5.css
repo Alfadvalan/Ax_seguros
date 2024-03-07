@@ -14,7 +14,7 @@
   flex-direction: row;
 }
 
-#text_5 img{
+#logo-ax-titulo img{
   width: 80%;
   margin-left: 12px;
 }
@@ -25,8 +25,7 @@
   font-style: italic;
   color:#ffffff;
   text-align: center;
-}
-  
+} 
 
 #circulos{
   display: flex;

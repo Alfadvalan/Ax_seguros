@@ -10,9 +10,12 @@
   background-color: #00214A;
 }
 
+#img_whatsapp_responsivo{
+  display: none;
+}
+
 #container_section6{
   display: flex;
-  
 }
   
 #container-text h1{

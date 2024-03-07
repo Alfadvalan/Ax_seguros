@@ -3,6 +3,14 @@ import React from "react";
 function Section7() {
     return (
         <section id='rodape'>
+          <div id="container1-rodape-responsivo">
+              <div id='logo_rodape_responsiva'> 
+                <img src="/images/logo.png" alt="logo AX" />
+              </div>
+              <div className="info_text_responsivo">
+                <p>A AX Seguros é uma Representante de Seguros da Split Risk, que possui autorização da Superintendência de Seguros Privados (SUSEP) para operar,  conforme processo da Susep (Sandbox Regulatório) nº15414.618377/2020-87.</p>
+              </div>
+            </div>
           <div id='flex_rodape'>
             <div id="container1-rodape">
               <div id='logo_rodape'> 
@@ -11,15 +19,7 @@ function Section7() {
               <div className="info_text">
                 <p>A AX Seguros é uma Representante de Seguros da Split Risk, que possui autorização da Superintendência de Seguros Privados (SUSEP) para operar,  conforme processo da Susep (Sandbox Regulatório) nº15414.618377/2020-87.</p>
               </div>
-            </div>
-            <div id="container1-rodape-responsivo">
-              <div id='logo_rodape_responsiva'> 
-                <img src="/images/logo.png" alt="logo AX" />
-              </div>
-              <div className="info_text_responsivo">
-                <p>A AX Seguros é uma Representante de Seguros da Split Risk, que possui autorização da Superintendência de Seguros Privados (SUSEP) para operar,  conforme processo da Susep (Sandbox Regulatório) nº15414.618377/2020-87.</p>
-              </div>
-            </div>
+            </div>    
             <div id='div_azul'></div>
             <div id="container-info">
               <div id="endereco">

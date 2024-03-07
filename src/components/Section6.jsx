@@ -8,6 +8,9 @@ function Section6() {
             <div id='container-text'>
               <h1>Fale com a gente!</h1>
               <p>Envie uma mensagem no nosso Whatsapp.</p>
+              <div id="img_whatsapp_responsivo">
+                <img src="/images/whatsappmaior.png" alt="ícone Whatsapp" />
+              </div> 
               <div id='contato'>
                 <a href="https://bit.ly/3Sk88LS">
                   <button>Entre em contato!</button>
