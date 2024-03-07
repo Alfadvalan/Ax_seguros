@@ -512,25 +512,130 @@
   }
 }
 
-
-/*@media screen and (max-width: 500px){
-  .navbar #logo_navbar{
-    margin-top: 12px;
-  }
-
-  .navbar #logo_navbar img{
-    width: 130px;
-  }
-
-  .navbar #button_navbar button {
-    width: 125px;
-    height: 32px;
-    font-size: 12px;
-  }
-
-}*/
-
 @media screen and (max-width: 426px){
+  #logo_lp{
+    margin-top: 10px;
+  }
+  
+  #logo_lp img{
+    width: 120px;
+  }
+  
+  #formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+    padding: 1%;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  
+  #content_form{
+    width: 100%;
+  }
+  
+  #content_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+  }
+  
+  #content_text h1{
+    font-family: 'Poppins';
+    color: #BC0F06;
+    text-align: center;
+    font-size: 1.6rem;
+    padding-top: 20px;
+    width: 60%;
+    text-align: center;
+  }
+  
+  #content_text p{
+    width: 70%;
+    margin: 0 auto;
+    color: #00214A;
+    font-family: 'Poppins';
+    font-size: 0.8rem;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+  }
+  
+  .input {
+    position: relative;
+  }
+  
+  .input-container{
+    display: flex;
+    flex-direction: row;
+    padding: 7%;
+  }
+  
+  .input-container input{
+    background-color: #F7F7F7;
+    border: none;
+    width: 100%;
+    font-family: 'Poppins';
+    font-weight: 300;
+    border-bottom: 1px solid #BC0F06; /* Cor do traço */
+    padding-bottom: 5px; /* Espaçamento opcional abaixo do traço */
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+    outline: none;
+  }
+  
+  #tipoVeiculo {
+    outline: none;
+    width: 100%;
+    background-color: #F7F7F7;
+    border: none;
+    border-bottom: 1px solid #BC0F06; /* Cor do traço */
+    padding-bottom: 5px; /* Espaçamento opcional abaixo do traço */
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+    color: rgba(0, 0, 0, 0.677);
+    font-family: 'Poppins';
+    font-weight: 300;
+  }
+  
+  .input-container img{
+    width: 30px;
+    height: 20px;
+    padding-right: 10px;
+  }
+  
+  #submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+    width: auto;
+    height: auto;
+  }
+  
+  #submit_button{
+    width: 90%;
+    height: 40px;
+    background-color: #00214A;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 300;
+    border: none;
+    border-radius: 55px;
+    cursor: pointer;
+  }
+  
+  #style_termos{
+    padding-top: 0;
+    font-size: 10px;
+    color: black;
+    font-family: 'Inter';
+    text-align: center;
+  }
 
   #navbar.navbar.show{
     height: 65px;
@@ -1641,6 +1746,7 @@
     width: 30px;
     padding:5px;
   }
+
 }
 
 @media screen and (max-height: 650px){
@@ -1959,1194 +2065,3 @@
     padding:5px;
   }
 }
-
-
-
-/*
-@media screen and (min-height: 800px){
-  #logo img{
-    width: 200px;
-  }
-    
-  #section1_h1 h1{
-    font-size: 40px;
-  }
-  
-  #section1_p p{
-    font-size: 18px;
-  }
-  
-  #section1_button button{
-    width: 250px;
-    height: 46px;
-    font-size: 13px;
-  }
-  
-  #section2{
-    height: 100%;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  #section2_h1{
-    margin-top: 120px;
-    margin-left: 0;
-  }
-  
-  .sec2_title{
-    font-size: 34px;
-    text-align: center;
-  }
-  
-  #section2_p{
-    text-align:justify;
-    padding-top: 50px;
-    margin-left: 0;
-    padding-right: 0;
-  }
-  
-  #section2_p p{
-    font-size: 16px;
-    text-align:justify;
-    padding-inline: 100px;
-  }
-
-  #section2_img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 80px;
-  }
-  
-  #section2_img img{
-    width: 100%;
-  }
-
-  #section3{
-    margin-top: 50px;
-  }
-  
-  .section3_title h1{
-    font-size: 34px;
-    margin-top: -100px;
-  }
-  
-  .section3_title p{
-    font-size: 17px;
-  }
-    
-  .background_img{
-    width: 140px;
-    height: 140px;
-  }
-  
-  .background_img img{
-    width: 90px;
-    height: 90px;
-  }
-
-  #linha1{
-    padding-top: 100px;
-  }
-
-  #linha1 h2{
-    font-size: 17px;
-    margin-top: 38px;
-    padding-inline: 20px;
-  }
-  
-  #linha2 h2{
-    font-size: 17px;
-    padding-inline: 20px;
-    margin-top: 40px;
-  }
-  
-  #linha1 p{
-    font-size: 12px;
-    padding-inline: 20px;
-    margin-top: 10px;
-  }
-  
-  #linha2 p{
-    font-size: 12px;
-    padding-inline: 50px;
-  }
-  
-  #section4_title h1{
-    font-size: 34px;
-  }
-  
-  #section4_title p{
-    font-size: 13px;
-    padding-inline: 60px;
-  }
-  
-  .section4_img{
-    width: 140px;
-    height: 140px;
-  }
-  
-  .section4_img img{
-    width: 90px;
-    height: 90px;
-  }
-  
-  .sec_4_coluna h2{
-    font-size: 17px;
-    padding-inline: 20px;
-  }
-  
-  .sec_4_coluna p{
-    font-size: 12px;
-    padding-inline: 30px;
-  }
-
-  #section5{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  #text_5 h1{
-    font-size: 31px;
-  }
-  
-  #text_5 p{
-    font-size: 15px;
-    padding-top: 10px;
-  }
-
-  #circulos img{
-    width: 600px;
-  }
-  
-  #section5_btn{
-    margin-top: 80px;
-  }
-  
-  #section5_btn button{
-    width: 217px;
-    height: 46px;
-    font-size: 13px;
-  }
-  
-  #text_6 h1{
-    font-size: 33px;
-  }
-  
-  #mapa{
-    width: 480px;
-    height: 330px;
-    margin-top: 50px;
-  }
-  
-  #rodape{
-    height: 190px;
-  }
-  
-  #logo_rodape img{
-    width: 150px;
-    margin-top: 75x;
-  }
-  
-  #rodape h2{
-    font-size: 13px;
-    margin-top: 40px;
-  }
-  
-  #rodape p, #sobre a{
-    font-size: 10px;
-    margin-top: 15px;
-  }
-  
-  #div_branca{
-    width: 1px;
-    height: 142px;
-    margin-top: 30px;
-  }
-  
-  #redes img{
-    margin-top: 15px;
-    padding:10px;
-    width: 20px;
-  }
-} */
-
-/* TELAS MAIORES 
-@media screen and (max-width: 2900px){
-  #logo img{
-    width: 350px;
-  }
-    
-  #section1_h1 h1{
-    font-size: 70px;
-    padding-inline: 20px;
-  }
-  
-  #section1_p p{
-    font-size: 34px;
-  }
-  
-  #section1_button button{
-    width: 300px;
-    height: 67px;
-    font-size: 20px;
-  }
-  
-  #section2_h1{
-    margin-top: 30rem;
-    margin-left: 13rem;
-  }
-  
-  .sec2_title{
-    font-size: 60px;
-  }
-  
-  #section2_p{
-    text-align:justify;
-    margin-top: 70px;
-    margin-left: -70px;
-    padding-right: 0;
-  }
-  
-  #section2_p p{
-    font-size: 34px;
-    text-align:justify;
-    padding-inline: 18rem;
-  }
-  
-  #section2_img img{
-    width: 50vw;
-  }
-  
-  #section3{
-    margin-top: 30rem;
-  }
-
-  #container{
-    margin-top: 100px;
-  }
-  
-  .section3_title h1{
-    font-size: 68px;
-  }
-  
-  .section3_title p{
-    font-size: 36px;
-  }
-    
-  .background_img{
-    width: 260px;
-    height: 260px;
-  }
-  
-  .background_img img{
-    width: 150px;
-    height: 150px;
-  }
-
-  #linha2{
-    margin-top: 120px;
-    margin-left: 80px;
-  }
-  
-  #linha1 h2{
-    font-size: 35px;
-    margin-top: 38px;
-    padding-inline: 0;
-  }
-  
-  #linha2 h2{
-    font-size: 35px;
-    padding-inline: 0;
-    margin-top: 40px;
-  }
-  
-  #linha1 p{
-    font-size: 25px;
-    padding-inline: 0;
-    margin-top: 10px;
-  }
-
-  #elemento1, #elemento2, #elemento3, #elemento4, #elemento5{
-    margin: 70px;
-  }
-  
-  #linha2 p{
-    font-size: 25px;
-    padding-inline: 0;
-  }
-  
-  #section4_title h1{
-    font-size: 70px;
-  }
-
-  #section4_flex{
-    margin-top: 100px;
-  }
-  
-  #section4_title p{
-    font-size: 32px;
-    padding-inline: 60px;
-  }
-  
-  .section4_img{
-    width: 260px;
-    height: 260px;
-  }
-  
-  .section4_img img{
-    width: 150px;
-    height: 150px;
-  }
-  
-  .sec_4_coluna{
-    margin-left: 70px;
-  }
-
-  #linha4{
-    margin-left: 50px;
-  }
-
-  .sec_4_coluna h2{
-    font-size: 34px;
-    padding-inline: 0;
-  }
-  
-  .sec_4_coluna p{
-    font-size: 25px;
-    padding-inline: 0;
-  }
-  
-  #section5{
-    padding: 30%;
-  }
-
-  #text_5 h1{
-    font-size: 65px;
-  }
-  
-  #text_5 p{
-    font-size: 31px;
-    padding-top: 10px;
-  }
-
-  .imagem_circulo{
-    width: 70rem;
-  }
-
-  #section5_btn{
-    margin-top: 120px;
-  }
-  
-  #section5_btn button{
-    width: 320px;
-    height: 75px;
-    font-size: 20px;
-  }
-  
-  #text_6 h1{
-    font-size: 68px;
-  }
-  
-  #mapa{
-    width: 80rem;
-    height: 40rem;
-    margin-top: 100px;
-  }
-  
-  #rodape{
-    height: 250px;
-  }
-  
-  #logo_rodape img{
-    width: 270px;
-    margin-top: 80px;
-  }
-  
-  #rodape h2{
-    font-size: 24px;
-    margin-top: 40px;
-  }
-  
-  #rodape p, #sobre a{
-    font-size: 18px;
-    margin-top: 15px;
-  }
-  
-  #div_branca{
-    width: 1px;
-    height: 170px;
-    margin-top: 40px;
-  }
-  
-  #redes img{
-    margin-top: 15px;
-    padding:20px;
-    width: 35px;
-  }
-}
-
-@media screen and (max-width: 2500px){
-  #logo img{
-    width: 300px;
-  }
-    
-  #section1_h1 h1{
-    font-size: 65px;
-    padding-inline: 20px;
-  }
-  
-  #section1_p p{
-    font-size: 32px;
-  }
-  
-  #section1_button button{
-    width: 292px;
-    height: 65px;
-    font-size: 19px;
-  }
-  
-  #section2_h1{
-    margin-top: 350px;
-    margin-left: 125px;
-  }
-  
-  .sec2_title{
-    font-size: 60px;
-  }
-  
-  #section2_p{
-    text-align:justify;
-    margin-top: 70px;
-    margin-left: -70px;
-    padding-right: 0;
-  }
-  
-  #section2_p p{
-    font-size: 30px;
-    text-align:justify;
-    padding-inline: 200px;
-  }
-  
-  #section2_img img{
-    width: 50vw;
-  }
-  
-  #section3{
-    margin-top: 300px;
-  }
-
-  #container{
-    margin-top: 100px;
-  }
-  
-  .section3_title h1{
-    font-size: 64px;
-  }
-  
-  .section3_title p{
-    font-size: 32px;
-  }
-    
-  .background_img{
-    width: 230px;
-    height: 230px;
-  }
-  
-  .background_img img{
-    width: 130px;
-    height: 130px;
-  }
-
-  #linha2{
-    margin-top: 120px;
-  }
-  
-  #linha1 h2{
-    font-size: 30px;
-    margin-top: 38px;
-    padding-inline: 30px;
-  }
-  
-  #linha2 h2{
-    font-size: 30px;
-    padding-inline: 30px;
-    margin-top: 40px;
-  }
-  
-  #linha1 p{
-    font-size: 23px;
-    padding-inline: 20px;
-    margin-top: 10px;
-  }
-  
-  #linha2 p{
-    font-size: 23px;
-    padding-inline: 20px;
-  }
-  
-  #section4_title h1{
-    font-size: 62px;
-  }
-
-  #section4_flex{
-    margin-top: 100px;
-  }
-  
-  #section4_title p{
-    font-size: 28px;
-    padding-inline: 60px;
-  }
-  
-  .section4_img{
-    width: 220px;
-    height: 220px;
-  }
-  
-  .section4_img img{
-    width: 125px;
-    height: 125px;
-  }
-  
-  .sec_4_coluna h2{
-    font-size: 30px;
-    padding-inline: 20px;
-  }
-  
-  .sec_4_coluna p{
-    font-size: 23px;
-    padding-inline: 20px;
-  }
-  
-  #section5{
-    padding: 25%;
-  }
-
-  #text_5 h1{
-    font-size: 55px;
-  }
-  
-  #text_5 p{
-    font-size: 27px;
-    padding-top: 10px;
-  }
-
-  .imagem_circulo{
-    width: 900px;
-  }
-
-  #section5_btn{
-    margin-top: 120px;
-  }
-  
-  #section5_btn button{
-    width: 300px;
-    height: 70px;
-    font-size: 18px;
-  }
-  
-  #text_6 h1{
-    font-size: 60px;
-  }
-  
-  #mapa{
-    width: 1000px;
-    height: 600px;
-    margin-top: 100px;
-  }
-  
-  #rodape{
-    height: 250px;
-  }
-  
-  #logo_rodape img{
-    width: 250px;
-    margin-top: 80px;
-  }
-  
-  #rodape h2{
-    font-size: 22px;
-    margin-top: 40px;
-  }
-  
-  #rodape p, #sobre a{
-    font-size: 16px;
-    margin-top: 15px;
-  }
-  
-  #div_branca{
-    width: 1px;
-    height: 170px;
-    margin-top: 40px;
-  }
-  
-  #redes img{
-    margin-top: 15px;
-    padding:10px;
-    width: 30px;
-  }
-}
-
-
-@media screen and (max-width: 2200px){
-  #logo img{
-    width: 270px;
-  }
-    
-  #section1_h1 h1{
-    font-size: 61px;
-    padding-inline: 20px;
-  }
-  
-  #section1_p p{
-    font-size: 27px;
-  }
-  
-  #section1_button button{
-    width: 270px;
-    height: 58px;
-    font-size: 17px;
-  }
-  
-  #section2_h1{
-    margin-top: 250px;
-    margin-left: 125px;
-  }
-  
-  .sec2_title{
-    font-size: 50px;
-  }
-  
-  #section2_p{
-    text-align:justify;
-    margin-top: 70px;
-    margin-left: -50px;
-    padding-right: 0;
-  }
-  
-  #section2_p p{
-    font-size: 25px;
-    text-align:justify;
-    padding-inline: 180px;
-  }
-  
-  #section2_img img{
-    width: 50vw;
-  }
-  
-  #section3{
-    margin-top: 150px;
-  }
-  
-  .section3_title h1{
-    font-size: 53px;
-  }
-  
-  .section3_title p{
-    font-size: 27px;
-  }
-    
-  .background_img{
-    width: 220px;
-    height: 220px;
-  }
-  
-  .background_img img{
-    width: 125px;
-    height: 125px;
-  }
-
-  #linha2{
-    margin-top: 150px;
-  }
-  
-  #linha1 h2{
-    font-size: 28px;
-    margin-top: 38px;
-    padding-inline: 30px;
-  }
-  
-  #linha2 h2{
-    font-size: 28px;
-    padding-inline: 30px;
-    margin-top: 40px;
-  }
-  
-  #linha1 p{
-    font-size: 21px;
-    padding-inline: 20px;
-    margin-top: 10px;
-  }
-  
-  #linha2 p{
-    font-size: 21px;
-    padding-inline: 20px;
-  }
-  
-  #section4_title h1{
-    font-size: 58px;
-  }
-  
-  #section4_title p{
-    font-size: 25px;
-    padding-inline: 60px;
-  }
-  
-  .section4_img{
-    width: 220px;
-    height: 220px;
-  }
-  
-  .section4_img img{
-    width: 125px;
-    height: 125px;
-  }
-  
-  .sec_4_coluna h2{
-    font-size: 28px;
-    padding-inline: 20px;
-  }
-  
-  .sec_4_coluna p{
-    font-size: 21px;
-    padding-inline: 20px;
-  }
-  
-  #section5{
-    padding: 25%;
-  }
-
-  #text_5 h1{
-    font-size: 49px;
-  }
-  
-  #text_5 p{
-    font-size: 23px;
-    padding-top: 10px;
-  }
-
-  .imagem_circulo{
-    width: 700px;
-  }
-
-  #section5_btn{
-    margin-top: 120px;
-  }
-  
-  #section5_btn button{
-    width: 260px;
-    height: 55px;
-    font-size: 16px;
-  }
-  
-  #text_6 h1{
-    font-size: 50px;
-  }
-  
-  #mapa{
-    width: 850px;
-    height: 500px;
-    margin-top: 100px;
-  }
-  
-  #rodape{
-    height: 200px;
-  }
-  
-  #logo_rodape img{
-    width: 190px;
-    margin-top: 75x;
-  }
-  
-  #rodape h2{
-    font-size: 18px;
-    margin-top: 40px;
-  }
-  
-  #rodape p, #sobre a{
-    font-size: 14px;
-    margin-top: 15px;
-  }
-  
-  #div_branca{
-    width: 1px;
-    height: 142px;
-    margin-top: 30px;
-  }
-  
-  #redes img{
-    margin-top: 15px;
-    padding:10px;
-    width: 24px;
-  }
-}
-
-@media screen and (max-width: 1900px){
-  #logo img{
-    width: 270px;
-  }
-    
-  #section1_h1 h1{
-    font-size: 61px;
-    padding-inline: 20px;
-  }
-  
-  #section1_p p{
-    font-size: 27px;
-  }
-  
-  #section1_button button{
-    width: 260px;
-    height: 50px;
-    font-size: 15px;
-  }
-  
-  #section2_h1{
-    margin-top: 200px;
-    margin-left: 95px;
-  }
-  
-  .sec2_title{
-    font-size: 45px;
-  }
-  
-  #section2_p{
-    text-align:justify;
-    margin-top: 50px;
-    margin-left: -50px;
-    padding-right: 0;
-  }
-  
-  #section2_p p{
-    font-size: 22px;
-    text-align:justify;
-    padding-inline: 150px;
-  }
-  
-  #section2_img img{
-    width: 50vw;
-  }
-  
-  #section3{
-    margin-top: -30px;
-  }
-  
-  .section3_title h1{
-    font-size: 48px;
-  }
-  
-  .section3_title p{
-    font-size: 25px;
-  }
-    
-  .background_img{
-    width: 195px;
-    height: 195px;
-  }
-  
-  .background_img img{
-    width: 115px;
-    height: 115px;
-  }
-  
-  #linha1 h2{
-    font-size: 25px;
-    margin-top: 38px;
-    padding-inline: 10px;
-  }
-  
-  #linha2 h2{
-    font-size: 25px;
-    padding-inline: 10px;
-    margin-top: 40px;
-  }
-  
-  #linha1 p{
-    font-size: 20px;
-    padding-inline: 10px;
-    margin-top: 10px;
-  }
-  
-  #linha2 p{
-    font-size: 20px;
-    padding-inline: 10px;
-  }
-  
-  #section4_title h1{
-    font-size: 52px;
-  }
-  
-  #section4_title p{
-    font-size: 22px;
-    padding-inline: 60px;
-  }
-  
-  .section4_img{
-    width: 195px;
-    height: 195px;
-  }
-  
-  .section4_img img{
-    width: 110px;
-    height: 110px;
-  }
-  
-  .sec_4_coluna h2{
-    font-size: 26px;
-    padding-inline: 20px;
-  }
-  
-  .sec_4_coluna p{
-    font-size: 18px;
-    padding-inline: 20px;
-  }
-  
-  #text_5 h1{
-    font-size: 45px;
-  }
-  
-  #text_5 p{
-    font-size: 21px;
-    padding-top: 10px;
-  }
-
-  .imagem_circulo{
-    width: 650px;
-  }
-  
-  #section5_btn button{
-    width: 250px;
-    height: 52px;
-    font-size: 15px;
-  }
-  
-  #text_6 h1{
-    font-size: 48px;
-  }
-  
-  #mapa{
-    width: 800px;
-    height: 450px;
-    margin-top: 50px;
-  }
-  
-  #rodape{
-    height: 200px;
-  }
-  
-  #logo_rodape img{
-    width: 190px;
-    margin-top: 75x;
-  }
-  
-  #rodape h2{
-    font-size: 18px;
-    margin-top: 40px;
-  }
-  
-  #rodape p, #sobre a{
-    font-size: 14px;
-    margin-top: 15px;
-  }
-  
-  #div_branca{
-    width: 1px;
-    height: 142px;
-    margin-top: 30px;
-  }
-  
-  #redes img{
-    margin-top: 15px;
-    padding:10px;
-    width: 24px;
-  }
-}
-
-@media screen and (max-width: 1500px){
-  #logo img{
-    width: 270px;
-  }
-    
-  #section1_h1 h1{
-    font-size: 57px;
-    padding-inline: 20px;
-  }
-  
-  #section1_p p{
-    font-size: 25px;
-  }
-  
-  #section1_button button{
-    width: 255px;
-    height: 48px;
-    font-size: 14px;
-  }
-  
-  #section2_h1{
-    margin-top: 190px;
-    margin-left: 70px;
-  }
-  
-  .sec2_title{
-    font-size: 43px;
-  }
-  
-  #section2_p{
-    text-align:justify;
-    margin-top: 50px;
-    margin-left: 0;
-    padding-right: 0;
-  }
-  
-  #section2_p p{
-    font-size: 22px;
-    text-align:justify;
-    padding-inline: 70px;
-  }
-  
-  #section2_img img{
-    width: 50vw;
-  }
-  
-  #section3{
-    margin-top: -120px;
-  }
-  
-  .section3_title h1{
-    font-size: 43px;
-  }
-  
-  .section3_title p{
-    font-size: 22px;
-  }
-    
-  .background_img{
-    width: 160px;
-    height: 160px;
-  }
-  
-  .background_img img{
-    width: 100px;
-    height: 100px;
-  }
-  
-  #linha1 h2{
-    font-size: 22px;
-    margin-top: 38px;
-    padding-inline: 20px;
-  }
-  
-  #linha2 h2{
-    font-size: 22px;
-    padding-inline: 30px;
-    margin-top: 40px;
-  }
-  
-  #linha1 p{
-    font-size: 16px;
-    padding-inline: 30px;
-    margin-top: 10px;
-  }
-  
-  #linha2 p{
-    font-size: 16px;
-    padding-inline: 40px;
-  }
-  
-  #section4_title h1{
-    font-size: 45px;
-  }
-  
-  #section4_title p{
-    font-size: 18px;
-    padding-inline: 60px;
-  }
-  
-  .section4_img{
-    width: 160px;
-    height: 160px;
-  }
-  
-  .section4_img img{
-    width: 100px;
-    height: 100px;
-  }
-  
-  .sec_4_coluna h2{
-    font-size: 22px;
-    padding-inline: 20px;
-  }
-  
-  .sec_4_coluna p{
-    font-size: 16px;
-    padding-inline: 30px;
-  }
-  
-  #text_5 h1{
-    font-size: 38px;
-  }
-  
-  #text_5 p{
-    font-size: 18px;
-    padding-top: 10px;
-  }
-
-  .imagem_circulo{
-    width: 600px;
-  }
-  
-  #section5_btn button{
-    width: 235px;
-    height: 50px;
-    font-size: 14px;
-  }
-  
-  #text_6 h1{
-    font-size: 40px;
-  }
-  
-  #mapa{
-    width: 700px;
-    height: 400px;
-    margin-top: 50px;
-  }
-  
-  #rodape{
-    height: 200px;
-  }
-  
-  #logo_rodape img{
-    width: 170px;
-    margin-top: 75x;
-  }
-  
-  #rodape h2{
-    font-size: 17px;
-    margin-top: 40px;
-  }
-  
-  #rodape p, #sobre a{
-    font-size: 13px;
-    margin-top: 15px;
-  }
-  
-  #div_branca{
-    width: 1px;
-    height: 142px;
-    margin-top: 30px;
-  }
-  
-  #redes img{
-    margin-top: 15px;
-    padding:10px;
-    width: 23px;
-  }
-}
-
-*/

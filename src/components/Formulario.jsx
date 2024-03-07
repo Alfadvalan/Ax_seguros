@@ -5,6 +5,8 @@ import { useNavigate } from 'react-router-dom';
 function Formulario() {
   const [telefone, setTelefone] = useState('');
   const navigate = useNavigate();
+  const PDF = '/termos-e-condicoes.pdf';
+
 
   // enviar dados api
   const handleFormSubmit = async (e) => {
@@ -44,7 +46,6 @@ function Formulario() {
       console.error('Erro durante a requisição:', error);
     }
 
-    
   };
 
   return (
@@ -87,13 +88,11 @@ function Formulario() {
         </select>
       </div>
       <div className='termos'>
-        <p id='style_termos'>Ao preencher o formulário, concordo em receber comunicação e estou de acordo com os <a href="">termos de uso.</a></p>
+        <p id='style_termos'>Ao preencher o formulário, concordo em receber comunicação e estou de acordo com os <a href={PDF} target="_blank" rel="noopener noreferrer">termos de uso.</a></p>
       </div>
-      
-        <div id='submit'>
-          <button type="submit" id='submit_button'>Enviar</button>
-        </div>
-
+      <div id='submit'>
+        <button type="submit" id='submit_button'>Enviar</button>
+      </div>
     </form>
   );
 }

@@ -23,8 +23,9 @@ function Section7() {
             <div id='div_azul'></div>
             <div id="container-info">
               <div id="endereco">
-                <h2>Nosso endereço</h2>
-                <p>R. Artur Antônio da Silva - <br />Universitário 445, Caruaru - PE, <br />55016-445</p>
+                <h2>Endereço e contato</h2>
+                <p>R. Artur Antônio da Silva - <br />Universitário 445, Caruaru - PE, <br />55016-445 </p>
+                <p>Telefone: 0800 042 1841</p>
                 
               </div>
               <div id='ouvidoria'>

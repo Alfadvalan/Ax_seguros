@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 #lp{
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -17,46 +13,61 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: auto;
+  height: 100vh;
+  margin: 0 auto;
 }
 
 #logo_lp{
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #logo_lp img{
-  width: 200px;
+  width: 180px;
+}
+
+#formulario{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 1%;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#content_form{
+  width: 100%;
 }
 
 #content_text{
   display: flex;
   justify-content: center;
+  flex-direction: column;
   width: auto;
+  align-items: center;
 }
 
 #content_text h1{
   font-family: 'Poppins';
-  color: #00214A;
-  font-style: italic;
-  text-align: center;
-  font-size: 2.2rem;
-  padding-top: 20px;
-  width: 60%;
-  text-align: center;
-}
-
-#content_form{
-  background-color: white;
-  width: 23%;
-}
-
-#content_form p{
   color: #BC0F06;
+  text-align: center;
+  font-size: 1.6rem;
+  padding-top: 20px;
+  width: 80%;
+  text-align: center;
+}
+
+#content_text p{
+  width: 70%;
+  margin: 0 auto;
+  color: #00214A;
   font-family: 'Poppins';
   font-size: 0.8rem;
   text-align: center;
-  padding-bottom: 5%;
-  padding-top: 9%;
+  padding-bottom: 2%;
+  padding-top: 2%;
 }
 
 .input {
@@ -66,17 +77,30 @@
 .input-container{
   display: flex;
   flex-direction: row;
-  padding: 8%;
+  padding: 7%;
 }
 
-.input-container input, #tipoVeiculo {
+.input-container input{
+  background-color: #ffffff;
   border: none;
-  outline: none;
   width: 100%;
+  font-family: 'Poppins';
+  font-weight: 300;
   border-bottom: 1px solid #BC0F06; /* Cor do traço */
   padding-bottom: 5px; /* Espaçamento opcional abaixo do traço */
   box-sizing: border-box; /* Garante que o padding não afete a largura total */
-  color: rgba(0, 0, 0, 0.43);
+  outline: none;
+}
+
+#tipoVeiculo {
+  outline: none;
+  width: 100%;
+  background-color: #ffffff;
+  border: none;
+  border-bottom: 1px solid #BC0F06; /* Cor do traço */
+  padding-bottom: 5px; /* Espaçamento opcional abaixo do traço */
+  box-sizing: border-box; /* Garante que o padding não afete a largura total */
+  color: rgba(0, 0, 0, 0.677);
   font-family: 'Poppins';
   font-weight: 300;
 }
@@ -91,7 +115,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10%;
+  padding-top: 4%;
   width: auto;
   height: auto;
 }
@@ -99,7 +123,7 @@
 #submit_button{
   width: 90%;
   height: 40px;
-  background-color: #BC0F06;
+  background-color: #00214A;
   color: #ffffff;
   font-family: 'Poppins';
   font-size: 14px;
@@ -109,8 +133,10 @@
   cursor: pointer;
 }
 
-.termos #style_termos{
+#style_termos{
   padding-top: 0;
-  font-size: 9px;
+  font-size: 10px;
   color: black;
+  font-family: 'Inter';
+  text-align: center;
 }

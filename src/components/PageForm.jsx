@@ -10,15 +10,12 @@ function PageForm() {
           </div>      
           <div id="content_text">
             <h1>Você está a um passo de garantir a melhor seguradora para seu veículo!</h1>
-          </div>
-          <div id='content_form'>
             <p>Preencha o formulário que em instantes a nossa equipe entrará em contato. </p>
-              <div>
-                <Formulario />
-              </div>
-            </div>
-        </div>
-       
+          </div>
+          <div id="formulario">
+            <Formulario />
+          </div>        
+        </div>       
       </section>
     </>
   )
