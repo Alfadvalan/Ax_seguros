@@ -36,8 +36,8 @@ function Section7() {
             <div id="container-redes">
               <h2>Nossas redes</h2>
               <div id="img-redes">
-                <a href=""><img src="/images/facebook.png" alt="facebook" /></a>
-                <a href="https://www.instagram.com/ax.seguros?igsh=dXIzM3l3azBpNXZh"><img src="/images/instagram.png" alt="instagram" /></a>
+                <a href="https://www.facebook.com/people/AX-Seguros/61555805082724/" target="_blank"><img src="/images/facebook.png" alt="facebook" /></a>
+                <a href="https://www.instagram.com/ax.seguros?igsh=dXIzM3l3azBpNXZh" target="_blank"><img src="/images/instagram.png" alt="instagram" /></a>
               </div>
               <p>&copy; Grupo Alfa. Todos os direitos reservados.</p>
             </div>
