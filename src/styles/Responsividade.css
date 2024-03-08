@@ -511,6 +511,382 @@
     padding:10px;
   }
 }
+/*one fusion */
+@media screen and (max-width: 620px){
+  #navbar.navbar.show{
+    height: 80px;
+  }
+
+  .navbar #logo_navbar{
+    margin-top: 4%;
+  }
+
+  .navbar #logo_navbar img{
+    width: 45%;
+  }
+
+  .navbar #button_navbar{
+    margin-top: 18%;
+  }
+
+  .navbar #button_navbar button {
+    width: 120px;
+    height: 35px;
+    font-size: 11px;
+  }
+
+  .scroll-arrow .arrow-icon{
+    width: 2rem;
+    height: 2rem;
+    right: 1rem; 
+    bottom: 3rem;
+  }
+
+  #logos{
+    padding-top: 10%;
+  }
+
+  #logo_ax{
+    width: 40%;
+    margin-bottom: 10px;
+  }
+  
+  #logo_susep{
+    width: 35%;
+    padding-bottom: 20%;
+  }
+    
+  #content_section1{
+    padding-top: 0;
+  }
+    
+  #section1_h1 h1{
+    font-size: 3.5rem;
+    line-height: 135%;
+  }
+  
+  #section1_p p{
+    font-size: 2rem;
+    padding: 2px;
+  }
+
+  #section1_p{
+    margin-top: 10%;
+  }
+    
+  #section1_button button{
+    width: 300px;
+    height: 65px;
+    font-size: 1.5rem;
+  }
+
+  #section2{
+    padding: 20%;
+  }
+
+  #section2_img{
+    display: none;
+  }
+  
+  #conteudo_section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 0;
+  }
+  
+  #conteudo_section2 h1 {
+    font-size: 2.6rem;
+    text-align: center;
+  }
+    
+  #conteudo_section2 p{
+    font-size: 1.7rem;
+    padding-top: 15%;
+    text-align: center;
+  }
+
+  #contratar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12%;
+  }
+  
+  #contratar button {
+    width: 300px;
+    height: 65px;
+    font-size: 1.5rem;
+  }
+
+  #section3{
+    padding: 10%;
+  }
+
+  #container{
+    margin-top: 10%;
+    flex-wrap: wrap;
+  }
+
+  .elemento_container{
+    padding: 7%;
+  }
+   
+  .section3_title{
+    width: 70%;
+  }
+    
+  .section3_title h1{
+    font-size: 2.9rem;
+  } 
+    
+  .background_img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .background_img img{
+    width: 120px;
+    height: 120px;
+  }
+
+  .section3_text{
+    width: 90%;
+  }
+    
+  .section3_text h2{
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+    
+  .section3_text p{
+    font-size: 1.5rem;
+    padding-inline: 10px;
+  }
+  
+  #fazer_parte_botao{
+    margin-top: 7%;
+  }
+  
+  #fazer_parte_botao button{
+    width: 320px;
+    height: 65px;
+    font-size: 1.7rem;
+  }
+    
+  #section4_title h1{
+    font-size: 2.6rem;
+    margin-top: 3%;
+  }
+    
+  #section4_flex{
+    margin-top: 8%;
+  }
+  
+  .sec_4_coluna{
+    width: 260px;
+    height: 380px;
+    margin: 25px;
+  }
+
+  .section4_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section4_img img{
+    width: 70%;
+  }
+  
+  .sec_4_coluna h2{
+    font-size: 1.5rem;
+    padding-inline: 5%;
+    padding-top: 18%;
+  }
+  
+  .sec_4_coluna p{
+    font-size: 1rem;
+    padding: 8%;
+    padding-top: 5px;
+  }
+   
+  #simular_botao{
+    margin-top:50px;
+  }
+  
+  #simular_botao button{
+    width: 320px;
+    height: 65px;
+    font-size: 1.7rem;
+  }
+
+  #section5{
+    padding: 15%;
+  }
+
+  #text_5{
+    margin-left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #logo-ax-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #logo-ax-titulo img{
+    width: 65%;
+    margin-left: 0;
+    margin-top: 4px;
+  }
+    
+  #text_5 h1{
+    font-size: 2.5rem;
+  }
+
+  #circulos{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+    
+  #circulos img{
+    padding-top: 0px;
+    width: 100%;
+  }
+
+  #section6{
+    padding: 15%;
+  }
+
+  #container-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  #container-text h1{
+    font-size: 2.7rem;
+    text-align: center;
+  }
+  
+  #container-text p{
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  #img_whatsapp {
+    display: none;
+  }
+
+  #img_whatsapp_responsivo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+  #img_whatsapp_responsivo img{
+    width: 60%;
+  }
+  
+  #contato{
+    margin-top: 30px;
+  }
+  
+  #contato button{
+    width: 280px;
+    height: 85px;
+    font-size: 1.7rem;
+  }
+
+  #rodape{
+    padding: 3%;
+  }
+
+  #container1-rodape-responsivo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #flex_rodape{
+    margin-top: 10%;
+    width: 90%;
+  }
+    
+  #logo_rodape_responsiva img{
+    width: 200px;
+    margin-top: 40px;
+  }
+
+  .info_text_responsivo{
+    width: 70%;
+  }
+  
+  .info_text_responsivo p{
+    font-family: 'Inter';
+    color: #4F4F4F;
+    font-weight: 600;
+    font-size: 1rem;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  #container-info{
+    padding-left: 0;
+  }
+  
+  #container-info h2{
+    font-size: 1.5rem;
+  }
+
+  #container-redes h2{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  #container-info p{
+    padding-top: 10px;
+    font-size: 1rem;
+  }
+
+  #container-redes p{
+    padding-top: 10px;
+    font-size: 0.9rem;
+  }
+  
+  #ouvidoria h2{
+    padding-top: 30px;
+  }
+  
+  #container1-rodape{
+    display: none;
+  }
+  
+  #div_azul{
+    display: none;
+  }
+
+  #container-redes{
+    width: 100%;
+    margin-left: 30%;
+  }
+  
+  #container-redes img{
+    margin-top: 15px;
+    width: 40px;
+    padding:5px;
+  }
+}
 
 @media screen and (max-width: 426px){
   #logo_lp{
@@ -1041,7 +1417,7 @@
   }
   
   #logo_susep{
-    width: 28%;
+    width: 32%;
     padding-bottom: 20%;
   }
     
@@ -1050,7 +1426,7 @@
   }
     
   #section1_h1 h1{
-    font-size: 2.1rem;
+    font-size: 2rem;
     line-height: 135%;
   }
   
