@@ -31,14 +31,14 @@
 .conteudo_page h1{
     text-align: center;
     font-family: 'Poppins';
-    font-size: 50px;
+    font-size: 2.4rem;
     color: #BC0F06;
 }
 
 .conteudo_page p{
     text-align: center;
     font-family: 'Poppins';
-    font-size: 25px;
+    font-size: 1.2rem;
 }
 
 #button-voltar{
@@ -46,7 +46,7 @@
 }
 
 #button-voltar button{
-    width: 310px;
+    width: 300px;
     height: 52px;
     font-size: 1.3rem;
     background: none;

@@ -1035,13 +1035,13 @@
   }
 
   #logo_ax{
-    width: 30%;
+    width: 35%;
     margin-bottom: 10px;
     margin-top: 5%;
   }
   
   #logo_susep{
-    width: 25%;
+    width: 28%;
     padding-bottom: 20%;
   }
     
@@ -1216,7 +1216,7 @@
   }
 
   #section5{
-    padding: 10%;
+    padding: 15%;
   }
 
   #text_5{
@@ -1250,7 +1250,7 @@
     
   #circulos img{
     padding-top: 0px;
-    width: 95%;
+    width: 100%;
   }
 
   #section6{
@@ -1749,7 +1749,7 @@
 
 }
 
-@media screen and (max-height: 650px){
+@media screen and (max-height: 639px){
   #navbar.navbar.show {
     height: 65px;
   }
@@ -1776,12 +1776,12 @@
   }
 
   #logo_ax{
-    width: 15%;
+    width: 22%;
     margin-bottom: 10px;
   }
   
   #logo_susep{
-    width: 14%;
+    width: 18%;
     padding-bottom: 40%;
   }
     
@@ -1823,7 +1823,7 @@
   }
   
   #conteudo_section2 h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
     
   #conteudo_section2 p{
@@ -1832,8 +1832,8 @@
   }
   
   #contratar button {
-    width: 250px;
-    height: 40px;
+    width: 215px;
+    height: 37px;
     font-size: 1rem;
   }
 
@@ -1850,11 +1850,11 @@
   }
    
   .section3_title{
-    width: 50%;
+    width: 60%;
   }
     
   .section3_title h1{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   } 
     
   .background_img{
@@ -1961,8 +1961,8 @@
   }
     
   #circulos img{
-    padding-top: 30px;
-    width: 75%;
+    padding-top: 0px;
+    width: 85%;
   }
 
   #section6{
@@ -1974,11 +1974,11 @@
   }
     
   #container-text h1{
-    font-size: 1.9rem;
+    font-size: 1.7rem;
   }
   
   #container-text p{
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   
   #img_whatsapp img{
