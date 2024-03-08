@@ -547,12 +547,12 @@
   }
 
   #logo_ax{
-    width: 40%;
+    width: 35%;
     margin-bottom: 10px;
   }
   
   #logo_susep{
-    width: 35%;
+    width: 30%;
     padding-bottom: 20%;
   }
     
@@ -561,12 +561,12 @@
   }
     
   #section1_h1 h1{
-    font-size: 3.5rem;
-    line-height: 135%;
+    font-size: 2.4rem;
+    line-height: 125%;
   }
   
   #section1_p p{
-    font-size: 2rem;
+    font-size: 1.3rem;
     padding: 2px;
   }
 
@@ -575,9 +575,9 @@
   }
     
   #section1_button button{
-    width: 300px;
-    height: 65px;
-    font-size: 1.5rem;
+    width: 250px;
+    height: 57px;
+    font-size: 1.4rem;
   }
 
   #section2{
@@ -592,17 +592,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 90%;
     margin-left: 0;
   }
   
   #conteudo_section2 h1 {
-    font-size: 2.6rem;
+    font-size: 2.1rem;
     text-align: center;
   }
     
   #conteudo_section2 p{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     padding-top: 15%;
     text-align: center;
   }
@@ -615,9 +615,9 @@
   }
   
   #contratar button {
-    width: 300px;
-    height: 65px;
-    font-size: 1.5rem;
+    width: 250px;
+    height: 57px;
+    font-size: 1.4rem;
   }
 
   #section3{
@@ -634,11 +634,11 @@
   }
    
   .section3_title{
-    width: 70%;
+    width: 90%;
   }
     
   .section3_title h1{
-    font-size: 2.9rem;
+    font-size: 2.2rem;
   } 
     
   .background_img{
@@ -661,7 +661,7 @@
   }
     
   .section3_text p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding-inline: 10px;
   }
   
@@ -670,13 +670,13 @@
   }
   
   #fazer_parte_botao button{
-    width: 320px;
-    height: 65px;
-    font-size: 1.7rem;
+    width: 250px;
+    height: 53px;
+    font-size: 1.4rem;
   }
     
   #section4_title h1{
-    font-size: 2.6rem;
+    font-size: 2rem;
     margin-top: 3%;
   }
     
@@ -697,19 +697,19 @@
   }
 
   .section4_img img{
-    width: 70%;
+    width: 75%;
   }
   
   .sec_4_coluna h2{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-inline: 5%;
-    padding-top: 18%;
+    padding-top: 22%;
   }
   
   .sec_4_coluna p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 8%;
-    padding-top: 5px;
+    padding-top: 10px;
   }
    
   #simular_botao{
@@ -717,9 +717,9 @@
   }
   
   #simular_botao button{
-    width: 320px;
-    height: 65px;
-    font-size: 1.7rem;
+    width: 250px;
+    height: 53px;
+    font-size: 1.3rem;
   }
 
   #section5{
@@ -740,19 +740,19 @@
   }
   
   #logo-ax-titulo img{
-    width: 65%;
+    width: 40%;
     margin-left: 0;
     margin-top: 4px;
   }
     
   #text_5 h1{
-    font-size: 2.5rem;
+    font-size: 1.7rem;
   }
 
   #circulos{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
   }
     
   #circulos img{
@@ -772,12 +772,12 @@
   }
     
   #container-text h1{
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     text-align: center;
   }
   
   #container-text p{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: center;
     padding-top: 10px;
   }
@@ -802,9 +802,9 @@
   }
   
   #contato button{
-    width: 280px;
-    height: 85px;
-    font-size: 1.7rem;
+    width: 260px;
+    height: 80px;
+    font-size: 1.5rem;
   }
 
   #rodape{
@@ -824,7 +824,7 @@
   }
     
   #logo_rodape_responsiva img{
-    width: 200px;
+    width: 170px;
     margin-top: 40px;
   }
 
@@ -836,7 +836,7 @@
     font-family: 'Inter';
     color: #4F4F4F;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding-top: 20px;
     text-align: center;
   }
@@ -846,22 +846,22 @@
   }
   
   #container-info h2{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   #container-redes h2{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   
   #container-info p{
     padding-top: 10px;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   #container-redes p{
     padding-top: 10px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   
   #ouvidoria h2{
