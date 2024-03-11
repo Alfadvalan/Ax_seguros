@@ -18,7 +18,7 @@ function Section1(){
             </div>
             <div id='section1_button'>
               <Link to='/PageForm' >
-                  <button type='button'>Cote em 1 minuto!</button>
+                  <button type='button'>Cotação em 1 minuto!</button>
               </Link>
             </div>
           </div>
